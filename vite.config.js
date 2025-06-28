@@ -8,7 +8,7 @@ export default defineConfig({
 		port: 3000,
 		proxy: {
 			"/api": {
-				target: "https://chat-app-backend-i2vt.onrender.com",
+				target: "https://chat-backend-a4vm.onrender.com",
 			},
 		},
 	},
